@@ -6,7 +6,7 @@ html{
     letter-spacing: 1px;
     font-size: 24px;
 }
-.navbar{
+/* .navbar{
     top:0;
     left:0;
     width: 100%;
@@ -17,7 +17,7 @@ html{
     display: flex;
     flex-direction: row;
     box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
-}
+} */
 .links{
     padding: 1em;
     text-decoration: none;
@@ -26,13 +26,18 @@ html{
 .links::after{
     color: black;
 }
-.logo{
-    background-image: url("../../../images/TLU-logo-pilt-vrv-suur.jpg");
+.pilt1{
+    margin-top: 50px;
+    margin-left: 270px;
+    margin-bottom: -50px;
+}
+/* .logo{
+    background-image: url("../../../images/Forms_DTI-01 (1).png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 30%;
     height: 100%;
-}
+} */
 .oppekava{
     height: 500%;
     display: flex;
@@ -64,6 +69,7 @@ th{
     font-weight: normal;
     border-bottom: 1px solid rgba(211, 211, 211, 0.671);
     text-align: left;
+    
 }
 a{
     color: blue;
@@ -103,6 +109,9 @@ a::after{
     background-color: lightgray;
     border: 1px solid black;
 }
+#divv1{
+    transition: all 2s ease-in-out;
+}
 .formInput{
     font-size: 24px;
 }
@@ -132,4 +141,16 @@ th label{
     from {opacity: 0%;}
     to {opacity: 100%;}
 }
+
+@keyframes growDown {
+    0% {
+      transform: scaleY(0)
+    }
+    80% {
+      transform: scaleY(1.1)
+    }
+    100% {
+      transform: scaleY(1)
+    }
+  }
 
