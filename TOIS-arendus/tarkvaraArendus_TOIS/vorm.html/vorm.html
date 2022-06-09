@@ -9,6 +9,11 @@
 <title>Õppekava vorm</title>
 </head>
 <body>
+
+    <nav class="navbar" id="nav">
+        <a href="vorm.html" class="logo"></a>
+    </nav>
+
     <container class="oppekava" style="margin-top: 80px;">
         <div class="headPiece">
             <h1>Õppekava loomine</h1>
@@ -20,11 +25,11 @@
             <br>
             <hr>
         </div>
-        <div class="box">
+        <div id="box1" class="box" onclick="openTable1()">
             <a href="#" onclick="openTable1()">Üldine info</a><br>
         </div>
         <div class="fillForm">
-            <table id="table1" style="display:none">
+            <table id="table1" style="display:none;animation-name: animatsioon;animation-duration: 0.5s;">
                 <tr>
                     <th>
                         <label for="nimetus-ek">Nimetus e.k.</label>
@@ -95,11 +100,11 @@
             </table>
         </div>
 
-        <div class="box">
+        <div class="box" onclick="openTable2()">
             <a href="#" onclick="openTable2()">Hindamine ja õppe eesmärgid</a><br>
         </div>
         <div class="fillForm">
-            <table id="table2" style="display:none">
+            <table id="table2" style="display:none;animation-name: animatsioon;animation-duration: 0.5s;">
                 <tr>
                     <th>
                         <label for="kontrollivorm">Kontrollivorm</label>
@@ -216,11 +221,11 @@
             </table>
         </div>
 
-        <div class="box">
+        <div class="box" onclick="openTable3()">
             <a href="#" onclick="openTable3()">Muu informatsioon</a><br>
         </div>
         <div class="fillForm">
-            <table id="table3" style="display:none">
+            <table id="table3" style="display:none;animation-name: animatsioon;animation-duration: 0.5s;">
                 <tr>
                     <th>
                         <label for="sihtgrupp">Sihtgrupp</label>
@@ -248,11 +253,11 @@
             </table>
         </div>
 
-        <div class="box">
+        <div class="box" onclick="openTable4()">
             <a href="#" onclick="openTable4()">Administraatori täita</a>
         </div>
         <div class="fillForm">
-            <table id="table4" style="display:none">
+            <table id="table4" style="display:none;animation-name: animatsioon;animation-duration: 0.5s;">
                 <tr>
                     <th>
                         <label for="oppevaldkond">Õppevaldkond (ISCED)</label>
