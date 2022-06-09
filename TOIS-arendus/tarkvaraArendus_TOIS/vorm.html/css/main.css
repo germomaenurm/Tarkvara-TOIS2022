@@ -27,7 +27,7 @@ html{
     color: black;
 }
 .logo{
-    background-image: url("../pics/logos.png");
+    background-image: url("../../../images/TLU-logo-pilt-vrv-suur.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     width: 30%;
@@ -49,6 +49,7 @@ html{
     padding:0;
     margin:0;
     border-spacing: 0;
+
 }
 .table th{
     width: 10%;
@@ -58,9 +59,11 @@ html{
 }
 th{
     padding: 20px;
+    padding-right: 300px;
     height: 55px;
     font-weight: normal;
     border-bottom: 1px solid rgba(211, 211, 211, 0.671);
+    text-align: left;
 }
 a{
     color: blue;
@@ -70,8 +73,9 @@ a::after{
     color: blue;
 }
 .box{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 2px;
     width: 100%;
@@ -87,6 +91,9 @@ a::after{
     color: white;
     font-style: italic;
     text-transform: uppercase;
+}
+.box:hover{
+    background-color: #99112c;
 }
 .fillForm{
     padding-left: 25px;
@@ -118,3 +125,11 @@ th label{
     font-size: 24px;
     cursor: pointer;
 }
+
+
+
+@keyframes animatsioon{
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
