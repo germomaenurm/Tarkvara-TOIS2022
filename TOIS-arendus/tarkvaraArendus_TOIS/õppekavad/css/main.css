@@ -19,13 +19,21 @@ hr{
     border-bottom: 0.5px solid #75142cc4;
 }
 
-.links, a{
+a{
+    color: #ba0c2f;
+}
+
+a:hover{
+    color: #d44562;
+}
+
+.links{
     padding: 1em;
     text-decoration: none;
     color: black;
 }
 
-.links:hover, a:hover{
+.links:hover{
     color: #ba0c2f;
 }
 
